@@ -1,0 +1,444 @@
+@media only screen and (min-width: 1025px)  {
+  .buttons {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1386px) {
+
+  .phone__picture {
+    right: 0px;
+    max-width: 560px;
+  }
+
+  /* .advantages__inner {
+    
+  } */
+
+  .advantages__list {
+    margin-left: 750px;
+    max-width: 500px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .container {
+    padding: 40px 50px;
+  }
+
+  .kurs__picture {
+    max-width: 110px;
+  }
+
+  .phone__picture {
+    right: 0px;
+    max-width: 460px;
+  }
+
+  .title__text-main {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .title__text-sub {
+    font-size: 1.2rem;
+  }
+
+  .qr__code-text {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .advantages__list {
+    margin-left: 650px;
+    padding-right: 50px;
+    
+  }
+
+  .advantages__inner {
+    background-size: 700px auto;
+    min-height: 700px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 40px 50px;
+  }
+
+  .kurs__picture {
+    max-width: 110px;
+  }
+
+  .phone__picture {
+    right: 0px;
+    max-width: 360px;
+  }
+
+  .title__text-main {
+    font-size: 3rem;
+  }
+
+  .title__text-sub {
+    font-size: 1.2rem;
+  }
+
+  #visable{
+    display: none;
+  }
+
+  .qr__code-text {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .qu__code-image {
+    display: none;
+  }
+
+  /* 2nd section */
+
+  .adv__top__title {
+    padding-top: 30px;
+  }
+
+  .advantages__list {
+    margin-left: 500px;
+    padding-right: 50px;
+    
+  }
+
+  .advantages__inner {
+    background-size: 600px auto;
+    background-position: -20% 0%;
+    min-height: 600px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 869px) {
+  .title__text-main {
+    font-size: 2.5rem;
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+
+  .title__text-sub {
+    font-size: 1.1rem;
+  }
+
+  .kurs__picture {
+    margin-top: 30px;
+  }
+
+  .container {
+    padding: 30px 50px;
+  }
+
+    /* 2nd section */
+
+    .adv__top__title {
+      padding-top: 50px;
+    }
+  
+    .advantages__list {
+      margin-left: 400px;
+      padding-right: 50px;
+    }
+  
+    .advantages__inner {
+      background-size: 600px auto;
+      background-position: -60% 0%;
+      min-height: 600px;
+    }
+
+    .footer {
+      max-height: 250px;
+      /* background-size: 600px auto; */
+      /* background-position: 850% 80%; */
+      background-position: 850% 0%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 784px) {
+    
+  /* 2nd section */
+
+  .advantages {
+    min-height: 500px;
+  }
+
+    .adv__top__title {
+      padding-top: 50px;
+    }
+  
+    .advantages__list {
+      max-width: 700px;
+      margin-left: 50px;
+      padding: 15px 50px;
+      margin-bottom: 20px;
+    }
+  
+    .advantages__inner {
+      background-image: none;
+      background-size: 500px auto;
+      min-height: 520px;
+    }
+
+   /* 3d part */
+    .first__link {
+      margin-bottom: 10px;
+    }
+
+    .footer__position{
+      margin-left: 50px;
+    }
+
+    .first__link::before {
+      margin-left: -50px;
+    }
+
+    .second__link::before {
+      margin-left: -50px;
+    }
+
+    .footer {
+      max-height: 250px;
+    } 
+
+}
+
+
+@media only screen and (max-width: 739px) {
+  .title__text-main {
+    font-size: 2rem;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    margin-left: -2px;
+  }
+
+  .title__text-sub {
+    font-size: 0.9rem;
+  }
+
+  .phone__picture {
+    right: 0px;
+    max-width: 320px;
+  }
+
+  .kurs__picture {
+    max-width: 80px;
+  }
+
+  .container {
+    padding: 30px 50px;
+  }
+
+  .qr__section {
+    padding-top: 20px;
+  }
+
+  .qr__code-text {
+    font-size: 0.9rem;
+  }
+
+  .advantages{
+    min-height: 368px;
+  }
+
+  .advantages__inner {
+    background-image: none;
+    background-size: 368px auto;
+    min-height: 368px;
+  } 
+  
+
+}
+
+
+@media only screen and (max-width: 629px) {
+  .title__text-main {
+    font-size: 1.6rem;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    line-height: 3rem;
+  }
+
+  .title__text-sub {
+    font-size: 0.8rem;
+  }
+
+  .phone__picture {
+    right: 0px;
+    max-width: 260px;
+  }
+
+  .container {
+    padding: 10px 50px;
+  }
+
+  .qr__section {
+    padding-top: 20px;
+  }
+
+  .button {
+    height: 25px;
+    font-size: 12px;
+    max-width: 210px;
+    padding-left: 15px;
+  }
+
+}
+
+
+@media only screen and (max-width: 520px) {
+  .title__text-main.origin {
+    font-size: 1.7rem;
+    margin-top: 20px;
+    /* width: 560px; */
+  }
+
+  .kurs__picture {
+    max-width: 50px;
+  }
+  
+  .title__text-main {
+    font-size: 1.2rem;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    line-height: 2rem;
+  }
+
+  .title__text-sub {
+    font-size: 0.7rem;
+  }
+
+  .phone__picture {
+    right: 0px;
+    max-width: 220px;
+  }
+
+  .button {
+    height: 25px;
+    font-size: 10px;
+    /* max-width: 210px; */
+    padding-left: 12px;
+    padding-right: 15px;
+  }
+
+  .button {
+    height: 50px;
+    max-width: 450px;
+    font-size: 0.8rem;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 440px) {
+  .phone__picture {
+    right: 0px;
+    max-width: 200px;
+  }
+
+  .button {
+    height: 50px;
+    max-width: 450px;
+    font-size: 0.8rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 420px) {
+  .title__text-main {
+    font-size: 1.4rem;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    line-height: 2rem;
+  }
+
+  .title__section-info {
+    width: 100%;
+  }
+
+  .button {
+    height: 50px;
+    max-width: 450px;
+    font-size: 0.8rem;
+  }
+
+  .adv {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .phone__picture {
+    display: none;
+  }
+
+  /* 2nd section */
+  /* .adv__top__title {
+    left: -200px;
+  } */
+  .advantages__list {
+      padding-left: 0px;
+  }
+
+  .hr__services::before {
+      margin-left: -29px;
+  }
+
+  .business__services::before {
+    margin-left: -29px;
+}
+
+  .ai__services::before {
+    margin-left: -29px;
+  }
+
+   /* 3d part */
+   .first__link {
+    margin-bottom: 10px;
+  }
+
+  .footer__position{
+    margin-left: 0px;
+  }
+
+  .first__link::before {
+    margin-left: -29px;
+  }
+
+  .second__link::before {
+    margin-left: -29px;
+  }
+
+  .footer {
+    padding-top: 5px;
+    max-height: 250px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
+@media only screen and (max-width: 285px) {
+  .container {
+    padding: 5px 30px;
+  }
+}

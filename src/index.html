@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <title>Мобильное приложение КУРС</title>
+  </head>
+
+  <body class="kurs">
+    <section class="title__section">
+      <div class="container top">
+        <div class="title__section-info">
+          <div class="kurs__logo">
+            <img class="kurs__picture" src="img/kurs_label.svg" alt="kurs" />
+          </div>
+          <div class="title__text">
+            <div class="title__text-main origin">Мобильный КУРС</div>
+            <div class="title__text-sub text__sub-width">
+              Основные сервисы по работе с SAP для сотрудников Сбера
+            </div>
+          </div>
+          <div class="qr__section">
+            <div class="buttons">
+              
+              <!-- <button class="button">
+              Установить
+              </button> -->
+              <button
+                id="myBtn"
+                class="button button__iOS"
+                onclick="location.href='itms-services://?action=download-manifest&amp;url=https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/mfp6.plist'"
+              >
+                Установить для iOS
+              </button>
+
+              <!-- The Modal for iOS-->
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <strong>После установки нужно:</strong>
+                  <p>Перейти в "Настройки"</p>
+                  <img src="img/arrow.svg" alt="arrow">
+                  <p>"Основные"</p>
+                  <img src="img/arrow.svg" alt="arrow">
+                  <p>"Профили и управление устройством"</p>
+                  <img src="img/arrow.svg" alt="arrow">
+                  <p>"Sberbank"</p>
+                  <img src="img/arrow.svg" alt="arrow">
+                  <p>Нажмите "Доверять Sberbank"</p>
+                  <p><br/></p>
+                  <strong>Установка началась, КУРС уже ждет вас на домашнем экране</strong>
+                </div>
+              </div>
+
+              <button
+                id="myBtnAndroid"
+                class="button button__android"
+                onclick="location.href='https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/app-kurs.apk'"
+              >
+                Установить для Android
+              </button>
+
+              <!-- The Modal for Android-->
+              <div id="myModalAndroid" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="closeAndroid">&times;</span>
+                  <strong>Устройство запросит подтвердить установку из ненадежного источника:</strong>
+                  <p>Перейдите в "Настройки" во время установки</p>
+                  <img src="img/arrow.svg" alt="arrow">
+                  <p>Включите переключатель</p>
+                  <img src="img/arrow.svg" alt="arrow">
+                  <p>Нажмите на устройстве на кнопку "назад"</p>
+                </div>
+              </div>
+
+              
+
+            </div>
+
+            <div class="qu__code-image">
+              <img class="qr__picture" src="img/qr_ios.svg" alt="" />
+            </div>
+            <div id="visable" class="qr__code-text qr__margin">
+              Вы можете установить приложение, открыв ссылку
+              <strong>kurs.sberbank.ru</strong> со смартфона или отсканировав
+              QR-код
+            </div>
+          </div>
+        </div>
+
+        <div class="title__picture">
+          <img
+            class="phone__picture"
+            src="img/phone_image.png"
+            alt="kurs_image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="advantages__inner">
+        <div class="advantages__list">
+          <div class="title__text-main adv__top__title">
+            Доступно уже сейчас
+          </div>
+          <div class="title__text-sub hr__services adv">HR сервисы</div>
+          <div class="qr__code-text adv__margin">
+            Доход и льготы <span class="green__slash">/</span> Расчетный листок
+            <span class="green__slash">/</span> > 30 шаблонов справок и заявок
+            <span class="green__slash">/</span> Оформление отсутствий
+            <span class="green__slash">/</span> Изменение режима работы
+            <span class="green__slash">/</span> Оценка 5+ и многое другое
+          </div>
+
+          <div class="title__text-sub adv business__services">
+            Бизнес-сервисы
+          </div>
+          <div class="qr__code-text adv__margin">
+            Согласования ВХД <span class="green__slash">/</span> Продажи и KPI
+            <span class="green__slash">/</span> Командировки (управление,
+            бронирование, отчетность)
+            <span class="green__slash">/</span> Инвентаризация (с 2021 года)
+          </div>
+
+          <div class="title__text-sub adv ai__services">Чат-бот</div>
+          <div class="qr__code-text adv__margin">
+            Искусственный интеллект <span class="green__slash">/</span> Есть
+            голосовое управление
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer ai__logo">
+      <div class="container">
+        <div class="footer__position">
+          <div class="title__text-main">Инструкции</div>
+          <div class="links">
+            <div>
+              <a
+                href="https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/kurs_guide_iOS.pdf"
+                class="qr__code-text first__link top__margin"
+                >Инструкция по установке iOS (PDF)</a
+              >
+            </div>
+            <div>
+              <a
+                href="https://a01j1e839f7f.ru1.hana.ondemand.com/sberbank/sf/distr_storage/kurs_guide_Android.pdf"
+                class="qr__code-text second__link"
+                >Инструкция по установке Android (PDF)</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <!-- Модальные окна (всплывашки с инструкцией) которые появляются при нажатии на кнопку "установить придложение"-->
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      var modalAndroid = document.getElementById("myModalAndroid");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      // Get the button that opens the modal (for Android)
+      var btnAndroid = document.getElementById("myBtnAndroid");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      // Get the <span> element that closes the modal
+      var spanAndroid = document.getElementsByClassName("closeAndroid")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      // When the user clicks the button, open the modal 
+      btnAndroid.onclick = function() {
+        modalAndroid.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      // When the user clicks on <span> (x), close the modal
+      spanAndroid.onclick = function() {
+        modalAndroid.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        } else if (event.target == modalAndroid) {
+          modalAndroid.style.display = "none";  
+        }
+      }
+
+      </script>
+
+  </body>
+</html>
