@@ -1,0 +1,24 @@
+{
+  "name": "landing_kurs",
+  "version": "1.0.0",
+  "description": "landing page of kurs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gelserkirchen/KURS.git"
+  },
+  "keywords": [
+    "kurs",
+    "landing"
+  ],
+  "author": "Tolstykh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gelserkirchen/KURS/issues"
+  },
+  "homepage": "https://github.com/Gelserkirchen/KURS#readme"
+}
