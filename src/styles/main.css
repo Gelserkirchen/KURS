@@ -165,7 +165,7 @@ body {
 .advantages__inner {
   min-height: 800px;
   width: auto;
-  background-image: url('./src/img/back_second_section.jpg');
+  background-image: url('../img/back_second_section.jpg');
   background-repeat: no-repeat;
   background-size: 800px auto;
   right: 0px;
@@ -226,7 +226,7 @@ body {
 */
 
 .footer {
-  background: url('./src/img/ai_logo.svg'),
+  background: url('../img/ai_logo.svg'),
       radial-gradient(
       21.67% 56.95% at 21.35% 75.32%,
       rgba(244, 244, 227, 0.45) 0%,
