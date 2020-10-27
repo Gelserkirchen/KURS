@@ -1,24 +1,19 @@
 {
-  "name": "landing_kurs",
+  "name": "1.0.0",
   "version": "1.0.0",
-  "description": "landing page of kurs",
+  "description": "Landing KURS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "prom": "node index.js",
     "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gelserkirchen/KURS.git"
-  },
   "keywords": [
-    "kurs",
-    "landing"
+    "node",
+    "nodeJS"
   ],
-  "author": "Tolstykh",
+  "author": "Andrei Tolstykh <forspamandtrash@list.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Gelserkirchen/KURS/issues"
-  },
-  "homepage": "https://github.com/Gelserkirchen/KURS#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
