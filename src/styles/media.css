@@ -20,6 +20,12 @@
     max-width: 500px;
     padding-right: 50px;
   }
+
+  .footer {
+    max-height: 360px;
+    background-position: 100% 50%;
+  }
+
 }
 
 @media only screen and (max-width: 1224px) {
@@ -59,6 +65,11 @@
   .advantages__inner {
     background-size: 700px auto;
     min-height: 700px;
+  }
+
+  .footer {
+    max-height: 260px;
+    background-position: 100% 50%;
   }
 
 }
@@ -116,7 +127,11 @@
     min-height: 600px;
   }
 
-
+  .footer {
+    max-height: 280px;
+    background-position: 183% 50%;
+    background-size: 100% 200%;
+  }
 }
 
 
@@ -160,12 +175,21 @@
       max-height: 250px;
       /* background-size: 600px auto; */
       /* background-position: 850% 80%; */
-      background-position: 850% 0%;
+      background-position: 183% 50%;
     }
 
 
 
 }
+
+/*@media only screen and (max-width: 810px) {*/
+/*  .footer {*/
+/*    max-height: 250px;*/
+/*    !* background-size: 600px auto; *!*/
+/*    !* background-position: 850% 80%; *!*/
+/*    background-position: -5583% 50%;*/
+/*  }*/
+/*}*/
 
 @media only screen and (max-width: 784px) {
     
@@ -211,6 +235,8 @@
 
     .footer {
       max-height: 250px;
+      background-position: 183% 50%;
+      /*background-size: 500px auto;*/
     } 
 
 }
@@ -237,6 +263,11 @@
     max-width: 80px;
   }
 
+  /*.sber__picture {*/
+  /*  max-width: 37px;*/
+  /*  margin-right: 15px;*/
+  /*}*/
+
   .container {
     padding: 30px 50px;
   }
@@ -257,8 +288,13 @@
     background-image: none;
     background-size: 368px auto;
     min-height: 368px;
-  } 
-  
+  }
+
+  .footer {
+    max-height: 280px;
+    background-position: 183% 5%;
+    /*background-size: 500px auto;*/
+  }
 
 }
 
@@ -295,6 +331,16 @@
     padding-left: 15px;
   }
 
+  .footer {
+    max-height: 350px;
+    background-position: 183% 50%;
+    /*background-size: 500px auto;*/
+  }
+
+  .ai__logo {
+
+  }
+
 }
 
 
@@ -306,7 +352,7 @@
   }
 
   .kurs__picture {
-    max-width: 50px;
+    max-width: 90px;
   }
   
   .title__text-main {
@@ -337,6 +383,12 @@
     height: 50px;
     max-width: 450px;
     font-size: 0.8rem;
+  }
+
+  .footer {
+    max-height: 250px;
+    background-position: 183% 5%;
+    /*background-size: 500px auto;*/
   }
 
 
